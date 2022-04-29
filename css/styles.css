@@ -1,0 +1,37 @@
+body {
+   background-color: #FFFFFF;
+   color: #757575;
+}
+.logo {
+    color: #2196F3;
+}
+ul{
+    list-style: none;
+}
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона F5F4FA */
+/* логотип #000000 */
+
+/* Site nav */
+.site-nav-list{
+    color: #212121;
+}
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
+   color: #2196F3; 
+}
+/* Hero */
+.hero-title {
+    color: #FFFFFF;
+}
+/* Main section */
+.section-title{
+    color: #212121;
+}
+/* Benefits */
+.benefits-list .title {
+    color: #212121;
+}
