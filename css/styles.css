@@ -14,24 +14,60 @@ ul{
 /* акцент #2196F3 */
 /* вторичный цвет фона F5F4FA */
 /* логотип #000000 */
+/* footer adress #FFFFFF 60% */
+/* Footer 2F303A */
 
 /* Site nav */
-.site-nav-list{
+.site-nav-list .link.curent{
+    color: #2196F3;
+}
+.site-nav-list .link {
     color: #212121;
 }
+.site-nav-list .adress-link{
+    color: #757575;
+}
+
 .site-nav-list .link:hover,
-.site-nav-list .link:focus {
+.site-nav-list .link:focus,
+.site-nav-list .adress-link:hover,
+.site-nav-list .adress-link:focus {
    color: #2196F3; 
 }
 /* Hero */
+.section-hero{
+    background-color: #2F303A;
+}
 .hero-title {
     color: #FFFFFF;
 }
 /* Main section */
 .section-title{
-    color: #212121;
+    color: #FFFFFF;
 }
 /* Benefits */
 .benefits-list .title {
     color: #212121;
+}
+/* Team */
+.section-team{
+    background-color: #F5F4FA ;
+}
+.team-list .title {
+    color: #212121;
+}
+/* Button */
+.button{
+    color: #FFFFFF ;
+    background-color: #2196F3 ;
+}
+/* Footer */
+.footer{
+    background-color: #2F303A;
+}
+.map-link{
+    color: #FFFFFF;
+}
+.link-footer{
+    color: rgba(255, 255, 255, 0.6);
 }
