@@ -1,9 +1,18 @@
 body {
    background-color: #FFFFFF;
    color: #757575;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 0.02em;
 }
+/* Logo */
 .logo {
     color: #2196F3;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;        
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 ul{
     list-style: none;
@@ -23,31 +32,54 @@ ul{
 }
 .site-nav-list .link {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .site-nav-list .adress-link{
     color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14; 
+    text-decoration: none;
 }
 
 .site-nav-list .link:hover,
 .site-nav-list .link:focus,
 .site-nav-list .adress-link:hover,
 .site-nav-list .adress-link:focus {
-   color: #2196F3; 
+   color: #2196F3;
 }
 /* Hero */
 .section-hero{
     background-color: #2F303A;
 }
-.hero-title {
+.section-title-hero{
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
-/* Main section */
 .section-title{
-    color: #FFFFFF;
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;  
 }
 /* Benefits */
 .benefits-list .title {
     color: #212121;
+}
+.benefits-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 /* Team */
 .section-team{
@@ -55,11 +87,29 @@ ul{
 }
 .team-list .title {
     color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+.team-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
 }
 /* Button */
 .button{
     color: #FFFFFF ;
     background-color: #2196F3 ;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 /* Footer */
 .footer{
@@ -67,7 +117,22 @@ ul{
 }
 .map-link{
     color: #FFFFFF;
+    text-decoration: none;
 }
 .link-footer{
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+/* Portfolio */
+/* filters */
+.button-list{
+    color: #212121;
+    background-color: #F5F4FA;
+}
+/* Projects */
+.projects-link{
+    color: #212121;
+}
+.projects-item{
+    color: #757575;
 }
