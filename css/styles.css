@@ -108,11 +108,12 @@ ul{
 .benefits-list .title {
     color: var(--title-text-color);
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 .benefits-item {
-    line-height: 1.7;
+    line-height: 1.71;
 }
 /* Team */
 .section-team{
@@ -122,12 +123,12 @@ ul{
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
 }
 .team-item{
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
 }
 /* Button */
